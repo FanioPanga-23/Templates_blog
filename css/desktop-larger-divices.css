@@ -1,0 +1,16 @@
+main {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.art-post {margin-bottom: 45px;}
+.post-coments {display: inline-block;}
+
+@media screen and (width > 992px) {
+    main {
+        display: flex;
+        flex-flow: row nowrap;
+    }
+
+    .p-post-hidden {display: flex;}
+}
